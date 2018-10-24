@@ -1,2 +1,0 @@
-# Mentoree
-Mentorship app
