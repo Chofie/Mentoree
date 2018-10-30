@@ -1,0 +1,62 @@
+body
+{
+	margin: auto;
+	background-image: url("woodBackground.png");
+
+}
+
+header
+{
+	width: 1000px;
+	margin: auto;
+	padding: 10px;
+	overflow: auto;
+}
+
+
+#leftHeader
+{
+	width: 50%;
+	float: left;
+	height: 320px;
+	text-align: center;
+	overflow: auto;
+
+}
+
+#rightHeader
+{
+	width: 50%;
+	float: right;
+	height: 320px;
+	text-align: left;
+	font-size:  x-large;
+	overflow: auto;
+
+
+}
+
+hr
+{
+	border: solid 1px;
+	color:  maroon;
+	clear: both;
+	margin: 1em 0em 1.5em 0em;
+}
+
+.container
+{
+	text-align: left;
+	margin-left: 100px;
+	padding: 1px;
+}
+
+.footer
+{
+	clear: both;
+	text-align: center;
+	background:  #824129;
+	height:   50px;
+	color: white;
+	padding-top: 1px;
+}

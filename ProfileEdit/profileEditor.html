@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href = "profileEditStyles.css" type = "text/css" rel= "stylesheet">
+	<title>ProfileEdit</title>
+</head>
+<body>
+	<div id="profileImage">
+		<img src="..\images\sealImage.jpg" alt="profileImage">
+		<button type="button">Edit Picture</button>
+	</div>
+	
+	<div id="rightHeader">
+		<form id="basicInfo" action="">
+			<fieldset>
+				<legend>Basic Information:</legend>
+			<div> First name: <input type="text" name="firstName"> </div>
+			<div> Last name: <input type="text" name="lastName"> </div>
+			<div> Current Position: <input type="text" name="position"> </div>
+			<div> Certification: <input type="text" name="cert"> </div>
+			<div> City: <input type="text name="city"> </div>
+			<div> State: <input type="text name="state"> </div>
+			<div> Country: <input type="text" name="country"> </div>
+			</fieldset>
+		</form>
+	</div>
+	
+	<div id="profileInfo">
+
+		<hr align="center" width="90%" size="1px" color="maroon">
+
+		<form action="">
+		<fieldset>
+				<legend>Mentorship Information</legend>
+			<h2>Goals:</h2> 
+			<ul>
+				<li>
+				<select name="Goals1">
+					<option value="blank"></option>
+					<option value="Leadership">Leadership</option>
+					<option value="Management">Management</option>
+					<option value="Technical">Technical</option>
+					<option value="Marketing">Marketing</option>
+					<option value="Sustainability">Sustainability</option>
+					<option value="Consulting">Consulting</option>
+					<option value="Communication">Communication</option>
+				</select>
+				</li>
+				
+				<li>
+				<select name="Goals2">
+					<option value="blank"></option>
+					<option value="Leadership">Leadership</option>
+					<option value="Management">Management</option>
+					<option value="Technical">Technical</option>
+					<option value="Marketing">Marketing</option>
+					<option value="Sustainability">Sustainability</option>
+					<option value="Consulting">Consulting</option>
+					<option value="Communication">Communication</option>
+				</select>
+				</li>
+			</ul>
+			
+		<h2>Skills:</h2>
+		<ul>
+			<li>
+			<select name="Skills1">
+				<option value="blank"></option>
+				<option value="Leadership">Leadership</option>
+				<option value="Management">Management</option>
+				<option value="Technical">Technical</option>
+				<option value="Marketing">Marketing</option>
+				<option value="Sustainability">Sustainability</option>
+				<option value="Consulting">Consulting</option>
+				<option value="Communication">Communication</option>
+			</select>
+			</li>
+		
+			<li>
+			<select name="Skills2">
+				<option value="blank"></option>
+				<option value="Leadership">Leadership</option>
+				<option value="Management">Management</option>
+				<option value="Technical">Technical</option>
+				<option value="Marketing">Marketing</option>
+				<option value="Sustainability">Sustainability</option>
+				<option value="Consulting">Consulting</option>
+				<option value="Communication">Communication</option>
+			</select>
+			</li>
+			</ul>
+			
+			<h2>Experience:</h2>  
+			<ul>
+				<li><input type="text"></li>
+				<li><input type="text"></li>
+				<li><input type="text"></li>
+			</ul>
+		
+			<h2>Availability:</h2> 
+			<input type="text" value="Best times to reach me: ..." name="availability">
+		</fieldset>
+		</form>
+	</div>
+	
+</body>
+</html>

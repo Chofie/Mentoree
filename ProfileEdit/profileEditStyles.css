@@ -1,0 +1,50 @@
+#profileImage
+{
+	width: 250px;
+	height: 250px;
+	float: left;
+	padding: none;
+	border: 5px solid lightblue;
+	overflow: hidden;
+}
+
+#rightHeader
+{
+	width: 60%;
+	float: right;
+	height: 320px;
+	text-align: left;
+	font-size:  large;
+	overflow: auto;
+
+}
+
+#basicInfo.div
+{
+	clear: left;
+}
+
+#profileInfo
+{
+	width: 100%;
+	text-align: left;
+
+}
+
+
+body
+{
+	margin: auto;
+	background-image: url("../images/woodBackground.png");
+}
+
+input
+{
+	width:60%;
+}
+
+#profileImage img
+{
+	width: 100%;
+	clip: rect(0px,250px,250px,0px);
+}
